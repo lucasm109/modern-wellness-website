@@ -3,5 +3,77 @@
   "framework": null,
   "outputDirectory": "dist",
   "buildCommand": null,
-  "installCommand": null
+  "installCommand": null,
+  "redirects": [
+    {
+      "source": "/pemf.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/biocharger.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/steam.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/flowpresso.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/meditation.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/westwood-compression.html",
+      "destination": "/westwood.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/cold-plunge.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/infrared-sauna.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/red-light.html",
+      "destination": "/westwood.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/compression.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/westwood-infrared-sauna.html",
+      "destination": "/westwood.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/westwood-cold-plunge.html",
+      "destination": "/westwood.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/hydrotherapy.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/salt.html",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    }
+  ]
 }
