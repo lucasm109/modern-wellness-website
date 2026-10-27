@@ -3,3 +3,7 @@ const header=document.querySelector('header');const toggle=document.querySelecto
 
 // Keep mobile pricing compact; preserve a visitor's choices until the layout crosses the breakpoint.
 const pricingViewport=window.matchMedia("(max-width:700px)");const setPricingLayout=()=>document.querySelectorAll("details.pricing-category").forEach(category=>category.open=!pricingViewport.matches);setPricingLayout();pricingViewport.addEventListener("change",setPricingLayout);
+
+// Dismiss the pricing menu when visitors leave it or press Escape.
+const pricingMenu=document.querySelector('.pricing-menu');
+if(pricingMenu){document.addEventListener('click',event=>{if(!pricingMenu.contains(event.target))pricingMenu.open=false;});document.addEventListener('keydown',event=>{if(event.key==='Escape'&&pricingMenu.open){pricingMenu.open=false;pricingMenu.querySelector('summary').focus();}});}
