@@ -1,0 +1,44 @@
+old_path,proposed_final_destination,status,source
+/infrared-sauna,,pending Search Console / content review,Wix static-page SEO record
+/copy-of-pricing-1,/framingham.html#pricing,proposed only,Wix static-page SEO record
+/copy-of-pricing,/westwood.html#private-pricing,proposed only,Wix static-page SEO record
+/book-online,https://modern-wellness-booking.vercel.app/book,proposed only,Wix static-page SEO record
+/,/,proposed only,Wix static-page SEO record
+/salt-chamber,,pending Search Console / content review,Wix static-page SEO record
+/pemf-therapy,,pending Search Console / content review,Wix static-page SEO record
+/blank,,pending Search Console / content review,Wix static-page SEO record
+/cart-page,,pending Search Console / content review,Wix static-page SEO record
+/privacy-policy,/privacy-policy.pdf,proposed only,Wix static-page SEO record
+/faq,/faq.html,proposed only,Wix static-page SEO record
+/signature-journey,/framingham.html#journeys,proposed only,Wix static-page SEO record
+/services,/experiences.html,proposed only,Wix static-page SEO record
+/guided-meditation,,pending Search Console / content review,Wix static-page SEO record
+/private-events,,pending Search Console / content review,Wix static-page SEO record
+/hot-tub,,pending Search Console / content review,Wix static-page SEO record
+/cold-plunge,,pending Search Console / content review,Wix static-page SEO record
+/flowpresso,,pending Search Console / content review,Wix static-page SEO record
+/steam-room,,pending Search Console / content review,Wix static-page SEO record
+/about,,pending Search Console / content review,Wix static-page SEO record
+/copy-of-home,,pending Search Console / content review,Wix static-page SEO record
+/subscribe,/newsletter.html,proposed only,Wix static-page SEO record
+/medical-disclaimer,/medical-disclaimer.pdf,proposed only,Wix static-page SEO record
+/compression-therapy,,pending Search Console / content review,Wix static-page SEO record
+/thank-you-page,,pending Search Console / content review,Wix static-page SEO record
+/biocharger,,pending Search Console / content review,Wix static-page SEO record
+/faq-1,/faq.html,proposed only,Existing Wix redirect to /faq
+/copy-of-salt-chamber,,pending Search Console / content review,Existing Wix redirect to /steam-room
+/copy-of-guided-meditation,,pending Search Console / content review,Existing Wix redirect to /compression-therapy
+/general-1,,pending Search Console / content review,Existing Wix redirect to /private-events
+/copy-of-compression-therapy,,pending Search Console / content review,Existing Wix redirect to /biocharger
+/about-9,,pending Search Console / content review,Existing Wix redirect to /guided-meditation
+/copy-of-cold-plunge,,pending Search Console / content review,Existing Wix redirect to /pemf-therapy
+/general-6,/,proposed only,Existing Wix redirect to /
+/general-8-1,,pending Search Console / content review,Existing Wix redirect to /premium-therapies
+/copy-of-about,/framingham.html#journeys,proposed only,Existing Wix redirect to /signature-journey
+/copy-of-biocharger,,pending Search Console / content review,Existing Wix redirect to /salt-chamber
+/copy-of-infrared-sauna,,pending Search Console / content review,Existing Wix redirect to /hot-tub
+/copy-of-steam-room-7,,pending Search Console / content review,Existing Wix redirect to /infrared-sauna
+/contact-8,/newsletter.html,proposed only,Existing Wix redirect to /subscribe
+/copy-of-signature-journey,/privacy-policy.pdf,proposed only,Existing Wix redirect to /privacy-policy
+/copy-of-pemf-therapy,,pending Search Console / content review,Existing Wix redirect to /flowpresso
+/copy-of-hot-tub,,pending Search Console / content review,Existing Wix redirect to /cold-plunge
