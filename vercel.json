@@ -7,27 +7,27 @@
   "redirects": [
     {
       "source": "/pemf.html",
-      "destination": "/framingham.html#services",
+      "destination": "/pemf-therapy",
       "permanent": true
     },
     {
       "source": "/biocharger.html",
-      "destination": "/framingham.html#services",
+      "destination": "/biocharger",
       "permanent": true
     },
     {
       "source": "/steam.html",
-      "destination": "/framingham.html#services",
+      "destination": "/steam-room",
       "permanent": true
     },
     {
       "source": "/flowpresso.html",
-      "destination": "/framingham.html#services",
+      "destination": "/flowpresso",
       "permanent": true
     },
     {
       "source": "/meditation.html",
-      "destination": "/framingham.html#services",
+      "destination": "/guided-meditation",
       "permanent": true
     },
     {
@@ -37,22 +37,22 @@
     },
     {
       "source": "/cold-plunge.html",
-      "destination": "/framingham.html#services",
+      "destination": "/cold-plunge",
       "permanent": true
     },
     {
       "source": "/infrared-sauna.html",
-      "destination": "/framingham.html#services",
+      "destination": "/infrared-sauna",
       "permanent": true
     },
     {
       "source": "/red-light.html",
-      "destination": "/westwood.html#services",
+      "destination": "/red-light-therapy",
       "permanent": true
     },
     {
       "source": "/compression.html",
-      "destination": "/framingham.html#services",
+      "destination": "/compression-therapy",
       "permanent": true
     },
     {
@@ -67,13 +67,289 @@
     },
     {
       "source": "/hydrotherapy.html",
-      "destination": "/framingham.html#services",
+      "destination": "/hot-tub",
       "permanent": true
     },
     {
       "source": "/salt.html",
+      "destination": "/salt-chamber",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blank",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-pricing-1",
+      "destination": "/framingham.html#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-pricing",
+      "destination": "/westwood.html#private-pricing",
+      "permanent": true
+    },
+    {
+      "source": "/book-online",
+      "destination": "https://modern-wellness-booking.vercel.app/book",
+      "permanent": true
+    },
+    {
+      "source": "/faq",
+      "destination": "/faq.html",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/experiences.html",
+      "permanent": true
+    },
+    {
+      "source": "/signature-journey",
+      "destination": "/framingham.html#journeys",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/medical-disclaimer",
+      "destination": "/medical-disclaimer.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/subscribe",
+      "destination": "/newsletter.html",
+      "permanent": true
+    },
+    {
+      "source": "/premium-therapies",
       "destination": "/framingham.html#services",
       "permanent": true
+    },
+    {
+      "source": "/compression-therapy.html",
+      "destination": "/compression-therapy",
+      "permanent": true
+    },
+    {
+      "source": "/guided-meditation.html",
+      "destination": "/guided-meditation",
+      "permanent": true
+    },
+    {
+      "source": "/salt-chamber.html",
+      "destination": "/salt-chamber",
+      "permanent": true
+    },
+    {
+      "source": "/steam-room.html",
+      "destination": "/steam-room",
+      "permanent": true
+    },
+    {
+      "source": "/hot-tub.html",
+      "destination": "/hot-tub",
+      "permanent": true
+    },
+    {
+      "source": "/pemf-therapy.html",
+      "destination": "/pemf-therapy",
+      "permanent": true
+    },
+    {
+      "source": "/red-light-therapy.html",
+      "destination": "/red-light-therapy",
+      "permanent": true
+    },
+    {
+      "source": "/private-events.html",
+      "destination": "/private-events",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/faq-1",
+      "destination": "/faq.html",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-salt-chamber",
+      "destination": "/steam-room",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-guided-meditation",
+      "destination": "/compression-therapy",
+      "permanent": true
+    },
+    {
+      "source": "/general-1",
+      "destination": "/private-events",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-compression-therapy",
+      "destination": "/biocharger",
+      "permanent": true
+    },
+    {
+      "source": "/about-9",
+      "destination": "/guided-meditation",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-cold-plunge",
+      "destination": "/pemf-therapy",
+      "permanent": true
+    },
+    {
+      "source": "/general-6",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/general-8-1",
+      "destination": "/framingham.html#services",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-about",
+      "destination": "/framingham.html#journeys",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-biocharger",
+      "destination": "/salt-chamber",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-infrared-sauna",
+      "destination": "/hot-tub",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-steam-room-7",
+      "destination": "/infrared-sauna",
+      "permanent": true
+    },
+    {
+      "source": "/contact-8",
+      "destination": "/newsletter.html",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-signature-journey",
+      "destination": "/privacy-policy.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-pemf-therapy",
+      "destination": "/flowpresso",
+      "permanent": true
+    },
+    {
+      "source": "/copy-of-hot-tub",
+      "destination": "/cold-plunge",
+      "permanent": true
     }
-  ]
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(?<preview>modern-wellness-website(?:-[a-zA-Z0-9-]+)?\\.vercel\\.app)"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/(privacy-policy|medical-disclaimer).pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/infrared-sauna",
+      "destination": "/infrared-sauna.html"
+    },
+    {
+      "source": "/cold-plunge",
+      "destination": "/cold-plunge.html"
+    },
+    {
+      "source": "/compression-therapy",
+      "destination": "/compression-therapy.html"
+    },
+    {
+      "source": "/guided-meditation",
+      "destination": "/guided-meditation.html"
+    },
+    {
+      "source": "/salt-chamber",
+      "destination": "/salt-chamber.html"
+    },
+    {
+      "source": "/steam-room",
+      "destination": "/steam-room.html"
+    },
+    {
+      "source": "/hot-tub",
+      "destination": "/hot-tub.html"
+    },
+    {
+      "source": "/biocharger",
+      "destination": "/biocharger.html"
+    },
+    {
+      "source": "/pemf-therapy",
+      "destination": "/pemf-therapy.html"
+    },
+    {
+      "source": "/flowpresso",
+      "destination": "/flowpresso.html"
+    },
+    {
+      "source": "/red-light-therapy",
+      "destination": "/red-light-therapy.html"
+    },
+    {
+      "source": "/private-events",
+      "destination": "/private-events.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    }
+  ],
+  "trailingSlash": false
 }
