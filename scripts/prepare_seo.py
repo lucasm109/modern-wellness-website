@@ -12,7 +12,10 @@ PAGES={
 'faq.html':('Visit FAQs, Reservations & What to Bring | Modern Wellness','Plan your Modern Wellness visit with answers about booking, walk-ins, day passes, private sessions and what to bring to Framingham or Westwood.'),
 'pricing.html':('Framingham & Westwood Spa Pricing | Modern Wellness','Compare ways to visit Modern Wellness, from Framingham 3-hour day passes to Westwood private 90-minute sessions. Find pricing for your location.'),
 'newsletter.html':('Modern Moments Newsletter | Modern Wellness','Stay connected with Modern Wellness. Learn how to join Modern Moments for news and updates from our Framingham and Westwood locations.')}
-def url(name):return BASE+('/' if name=='index.html' else '/'+name)
+EXTRA=json.loads((ROOT/'seo/generated-pages.json').read_text())
+PAGES.update({name:(data['title'],data['description']) for name,data in EXTRA.items()})
+NOINDEX={'newsletter.html','404.html'}
+def url(name):return BASE+(EXTRA[name]['path'] if name in EXTRA else ('/' if name=='index.html' else '/'+name))
 def business(key,name,street,city,zip,phone,image,social):
  return {'@type':'DaySpa','@id':BASE+'/#'+key,'name':name,'url':url(key+'.html'),'telephone':phone,'image':BASE+'/'+image,'address':{'@type':'PostalAddress','streetAddress':street,'addressLocality':city,'addressRegion':'MA','postalCode':zip,'addressCountry':'US'},'sameAs':[social],'parentOrganization':{'@id':BASE+'/#organization'}}
 locations=[business('framingham','Modern Wellness Longevity Spa','1644 Concord St. (Mill 1)','Framingham','01702','+1-781-400-0594','salt.jpg','https://www.instagram.com/modernwellspa/'),business('westwood','Modern Wellness Recovery Room','32 Everett St.','Westwood','02090','+1-508-988-0692','westwood-09.webp','https://www.instagram.com/modernwellness.westwood/')]
@@ -25,12 +28,12 @@ for name,(title,description) in PAGES.items():
  if name=='index.html':graph+=locations
  elif name in ('framingham.html','westwood.html'):graph += [b for b in locations if b['url']==url(name)]
  tags='<!-- SEO START --><link rel="canonical" href="'+url(name)+'">'
- if name=='newsletter.html':tags+='<meta name="robots" content="noindex, follow">'
+ if name in NOINDEX:tags+='<meta name="robots" content="noindex, follow">'
  for prop,value in [('og:type','website'),('og:site_name','Modern Wellness'),('og:title',title),('og:description',description),('og:url',url(name)),('og:image',BASE+'/salt.jpg')]:tags+='<meta property="'+prop+'" content="'+html.escape(value,quote=True)+'">'
  tags+='<script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@graph':graph},separators=(',',':'))+'</script><!-- SEO END -->'
  s=s.replace('</head>',tags+'</head>');p.write_text(s)
 root=Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
 for name in PAGES:
- if name!='newsletter.html':SubElement(SubElement(root,'url'),'loc').text=url(name)
+ if name not in NOINDEX:SubElement(SubElement(root,'url'),'loc').text=url(name)
 ElementTree(root).write(ROOT/'dist/sitemap.xml',encoding='utf-8',xml_declaration=True)
 (ROOT/'dist/robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: '+BASE+'/sitemap.xml\n')
