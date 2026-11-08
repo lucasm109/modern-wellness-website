@@ -1,0 +1,72 @@
+{
+  "infrared-sauna.html": {
+    "path": "/infrared-sauna",
+    "title": "Infrared sauna in Framingham & Westwood, MA | Modern Wellness",
+    "description": "Gentle infrared warmth for a slower moment in your day. Explore infrared sauna at Modern Wellness in Framingham & Westwood, MA, with location details and ways to visit."
+  },
+  "cold-plunge.html": {
+    "path": "/cold-plunge",
+    "title": "Cold plunge in Framingham & Westwood, MA | Modern Wellness",
+    "description": "A cool-water immersion experience, on its own or alongside warmth. Explore cold plunge at Modern Wellness in Framingham & Westwood, MA, with location details and ways to visit."
+  },
+  "compression-therapy.html": {
+    "path": "/compression-therapy",
+    "title": "Normatec compression in Framingham & Westwood, MA | Modern Wellness",
+    "description": "Rhythmic air compression around your legs while you recline. Explore normatec compression at Modern Wellness in Framingham & Westwood, MA, with location details and ways to visit."
+  },
+  "guided-meditation.html": {
+    "path": "/guided-meditation",
+    "title": "BrainTap meditation in Framingham, MA | Modern Wellness",
+    "description": "Guided audio and a light-and-sound headset for a focused pause. Explore braintap meditation at Modern Wellness in Framingham, MA, with location details and ways to visit."
+  },
+  "salt-chamber.html": {
+    "path": "/salt-chamber",
+    "title": "Salt chamber in Framingham, MA | Modern Wellness",
+    "description": "A quiet salt-lined setting for time away from the everyday. Explore salt chamber at Modern Wellness in Framingham, MA, with location details and ways to visit."
+  },
+  "steam-room.html": {
+    "path": "/steam-room",
+    "title": "Eucalyptus steam room in Framingham, MA | Modern Wellness",
+    "description": "Moist warmth with eucalyptus, as part of your Framingham visit. Explore eucalyptus steam room at Modern Wellness in Framingham, MA, with location details and ways to visit."
+  },
+  "hot-tub.html": {
+    "path": "/hot-tub",
+    "title": "Warm-water hydrotherapy in Framingham, MA | Modern Wellness",
+    "description": "Settle into the warm water of our Framingham hot tub. Explore warm-water hydrotherapy at Modern Wellness in Framingham, MA, with location details and ways to visit."
+  },
+  "biocharger.html": {
+    "path": "/biocharger",
+    "title": "BioCharger in Framingham, MA | Modern Wellness",
+    "description": "A seated light-and-frequency experience in a dedicated space. Explore biocharger at Modern Wellness in Framingham, MA, with location details and ways to visit."
+  },
+  "pemf-therapy.html": {
+    "path": "/pemf-therapy",
+    "title": "PEMF therapy in Framingham, MA | Modern Wellness",
+    "description": "A separate appointment using pulsed electromagnetic field equipment. Explore pemf therapy at Modern Wellness in Framingham, MA, with location details and ways to visit."
+  },
+  "flowpresso.html": {
+    "path": "/flowpresso",
+    "title": "Flowpresso in Framingham, MA | Modern Wellness",
+    "description": "Full-body compression, gentle warmth, and deep pressure in a dedicated appointment. Explore flowpresso at Modern Wellness in Framingham, MA, with location details and ways to visit."
+  },
+  "red-light-therapy.html": {
+    "path": "/red-light-therapy",
+    "title": "Red light therapy in Westwood, MA | Modern Wellness",
+    "description": "Red and near-infrared light in the Westwood Recovery Room. Explore red light therapy at Modern Wellness in Westwood, MA, with location details and ways to visit."
+  },
+  "private-events.html": {
+    "path": "/private-events",
+    "title": "Private Spa Events in Framingham | Modern Wellness",
+    "description": "Plan a private event at Modern Wellness in Framingham. Email our team to discuss your group, preferred date and the experiences you would like to enjoy."
+  },
+  "about.html": {
+    "path": "/about",
+    "title": "About Modern Wellness | Framingham & Westwood, MA",
+    "description": "Get to know Modern Wellness: a Longevity Spa in Framingham and a Recovery Room inside PEX in Westwood, with different ways to make time for yourself."
+  },
+  "404.html": {
+    "path": "/404",
+    "title": "Page Not Found | Modern Wellness",
+    "description": "This page is unavailable. Find Modern Wellness locations, experiences, pricing and booking information."
+  }
+}
