@@ -27,6 +27,15 @@ def esc(s):return __import__('html').escape(s,quote=True)
 def page(slug,title,description,body):
  meta[slug+'.html']={'path':'/'+slug,'title':title,'description':description}
  (DIST/(slug+'.html')).write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><meta name="description" content="'+esc(description)+'"><link rel="stylesheet" href="/style.css"></head><body>'+header+booking+'<main>'+body+'</main>'+footer+scripts+'</body></html>')
+ # Root-relative assets also work on a genuine nested missing-page address.
+ out=DIST/(slug+'.html');doc=html.parse(str(out))
+ from urllib.parse import urlsplit
+ for element in doc.xpath('//*[@href or @src]'):
+  for attr in ['href','src']:
+   value=element.get(attr)
+   if value and not value.startswith(('/', '#')) and not urlsplit(value).scheme:element.set(attr,'/'+value)
+ out.write_text('<!doctype html>'+html.tostring(doc.getroot(),encoding='unicode',method='html'))
+
 for slug,title,kind in SPECS:
  card=base.xpath('//article[contains(@class,"service-card")][h3[normalize-space(.)=$t]]',t=title)[0]
  intro=card.xpath('./p[1]')[0].text_content()
