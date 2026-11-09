@@ -6,6 +6,16 @@
   "installCommand": null,
   "redirects": [
     {
+      "source": "/pricing",
+      "destination": "/pricing.html",
+      "permanent": true
+    },
+    {
+      "source": "/_files/ugd/b317f3_1c230420254c4d61baf96d21fbca9f03.pdf",
+      "destination": "/framingham-parking-guide.pdf",
+      "permanent": true
+    },
+    {
       "source": "/pemf.html",
       "destination": "/pemf-therapy",
       "permanent": true
