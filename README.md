@@ -6,4 +6,4 @@ Pricing uses native accessible disclosure sections: compact on phones, expanded 
 
 Newsletter signup currently opens a clearly labeled email request to hello@modernwellspa.com; it does not enroll automatically. Connect a mailing-list provider to replace that flow with automatic signup.
 
-Booking links use the existing booking app. Video uses click-to-load Google Drive previews; mobile player improvements are deferred. Photography and films: Alex Moore.
+Booking links use the existing booking app. Location films use lazy-loaded YouTube privacy-enhanced embeds, with YouTube-managed thumbnails, inline mobile playback and fullscreen controls. Videos must allow embedding in YouTube. Photography and films: Alex Moore.
